@@ -1,0 +1,59 @@
+{
+  "name": "cop2.0",
+  "version": "0.0.1",
+  "description": "Fast, simple, and extensible context-oriented programming",
+  "keywords": [
+    "context",
+    "context-oriented",
+    "concept",
+    "mixin",
+    "mixins",
+    "scope",
+    "layer",
+    "layers"
+  ],
+  "homepage": "https://github.com/onsetsu/cop2.0/",
+  "bugs": {
+    "url": "https://github.com/onsetsu/cop2.0/issues",
+    "email": "stefan.lehmann@hpi.de"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Stefan Lehmann",
+    "email": "stefan.lehmann@hpi.de",
+    "url": "https://github.com/onsetsu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onsetsu/cop2.0.git"
+  },
+  "scripts": {
+    "test": "karma start karma.conf.js --single-run"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^11.0.0",
+    "chai": "^1.9.1",
+    "gulp": "^3.9.0",
+    "gulp-git": "^1.2.4",
+    "gulp-jshint": "^1.6.1",
+    "gulp-karma": "^0.0.4",
+    "gulp-shell": "^0.4.2",
+    "jsdoc": "^3.3.2",
+    "jshint-stylish": "^0.2.0",
+    "karma": "^0.13.1",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.10",
+    "karma-mocha": "^0.2.0",
+    "karma-mocha-reporter": "^1.0.2",
+    "karma-requirejs": "^0.2.2",
+    "mocha": "^2.2.5",
+    "requirejs": "^2.1.20",
+    "sinon-chai": "^2.8.0",
+    "systemjs": "^0.18.10"
+  },
+  "engines": {
+    "node": ">= 0.12.4",
+    "npm": "~2.10.1"
+  }
+}
