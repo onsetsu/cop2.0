@@ -20,7 +20,7 @@ module.exports = function(config) {
       {pattern: 'lib/**/*.js', included: false},
       {pattern: 'src/**/*.js', included: false},
       {pattern: 'vendor/**/*.js', included: false},
-      {pattern: 'serviceworker*', included: false},
+      {pattern: 'cop.js', included: false},
       {pattern: 'test/**/*.js', included: false},
       {pattern: 'test-main.js', included: false},
       'test-loader.js'
@@ -32,8 +32,7 @@ module.exports = function(config) {
       '/src/': '/base/src/',
       '/vendor/': '/base/vendor/',
       '/test/': '/base/test/',
-      '/serviceworker-loader.js': '/base/serviceworker-loader.js',
-      '/serviceworker.js': '/base/serviceworker.js'
+      '/cop.js': '/base/cop.js'
     },
 
 
