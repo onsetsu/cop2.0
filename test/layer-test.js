@@ -243,9 +243,6 @@ describe('wrapProperty', function() {
         var accessor = wrapProperty(obj, 'func', {
             getter: function() {
                 return newFunc;
-            },
-            setter: function(newValue) {
-
             }
         });
 

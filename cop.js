@@ -9,20 +9,6 @@ export function wrapProperty(obj, prop, descriptor) {
         value: obj[prop]
     };
 
-    //if (existingGetter && !existingGetter.isConstraintAccessor) {
-    //    obj.__defineGetter__(this.newIvarname, existingGetter);
-    //}
-    //if (existingSetter && !existingSetter.isConstraintAccessor) {
-    //    obj.__defineSetter__(this.newIvarname, existingSetter);
-    //}
-
-    // assign old value to new slot
-    //if (!existingGetter &&
-    //    !existingSetter &&
-    //    this.obj.hasOwnProperty(prop)) {
-    //    this.setValue(obj[prop]);
-    //}
-    //
     try {
         obj.__defineGetter__(prop, () => {
             console.log('bar');
